@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "students.adapters.persistence.apps.StudentsConfig",
+    "students.adapters.persistence.apps.StudentsPersistenceConfig",
 ]
 
 MIDDLEWARE = [
