@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class StudentsPersistenceConfig(AppConfig):
-    default_auto_field = "students.adapters.persistence"
-    name = "students_persistence"
+class StudentsConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "students"
